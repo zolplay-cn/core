@@ -1,23 +1,23 @@
 {
-  "name": "@zolplay/react",
-  "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
+  "name": "@zolplay/utils",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "scripts": {
+    "dev": "pnpm run build --watch",
     "lint": "eslint *.ts*",
-    "build": "tsup src/index.ts --format cjs --dts"
+    "build": "tsup index.ts --format cjs --dts"
   },
   "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
-    "react": "^18.2.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   },
   "dependencies": {
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.6.2",
     "tsup": "^6.3.0"
   }
 }
