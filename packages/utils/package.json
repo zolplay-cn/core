@@ -1,17 +1,11 @@
 {
   "name": "@zolplay/utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
-  "files": [
-    "src",
-    "dist"
-  ],
-  "sideEffects": false,
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf dist",
     "dev": "pnpm run build --watch",
     "build": "tsup --format cjs,esm",
     "lint": "eslint *.ts*"

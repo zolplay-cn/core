@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.0.5
+
+### Patch Changes
+
+- d4fb4ba: Fix
+
 ## 1.0.4
 
 ### Patch Changes
