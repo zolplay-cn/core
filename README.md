@@ -31,6 +31,12 @@ To develop all apps and packages, run the following command:
 pnpm run dev
 ```
 
+### Workflow for Publishing
+```bash
+pnpm run changeset
+pnpm run version
+```
+
 ## Useful Links
 
 Learn more about the power of Turborepo:

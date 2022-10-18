@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "apps/*",
     "packages/*"
   ],
   "scripts": {
@@ -11,7 +10,9 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "version": "changeset version",
+    "publish": "changeset publish"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.7.0",
@@ -21,6 +22,7 @@
     "@parcel/validator-typescript": "^2.7.0",
     "parcel": "^2.7.0",
     "prettier": "latest",
+    "tsup": "^6.3.0",
     "turbo": "latest",
     "typescript": "^4.8.4"
   },

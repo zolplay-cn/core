@@ -1,10 +1,8 @@
 {
   "name": "@zolplay/utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
-  "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "module": "dist/index.module.js",
   "files": [
     "src",
     "dist"
@@ -14,7 +12,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "pnpm run build --watch",
-    "build": "pnpm run clean && parcel build src/index.ts",
+    "build": "tsup src/index.ts --format cjs --dts",
     "lint": "eslint *.ts*"
   },
   "devDependencies": {

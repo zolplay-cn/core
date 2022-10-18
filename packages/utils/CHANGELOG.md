@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.0.3
+
+### Patch Changes
+
+- 629a8e3: Random
+
 ## 1.0.2
 
 ### Patch Changes
