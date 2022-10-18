@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.0.4
+
+### Patch Changes
+
+- Remove parcel
+
 ## 1.0.3
 
 ### Patch Changes
