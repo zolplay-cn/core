@@ -1,3 +1,6 @@
 {
-  "extends": "tsconfig/public-base.json"
+  "extends": "tsconfig/public-base.json",
+  "compilerOptions": {
+    "target": "ESNext"
+  }
 }
