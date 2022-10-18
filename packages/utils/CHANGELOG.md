@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.1.0
+
+### Minor Changes
+
+- 7daeff1: Added API
+
 ## 1.0.6
 
 ### Patch Changes
