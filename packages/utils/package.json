@@ -19,5 +19,18 @@
     "clsx": "^1.2.1",
     "tailwind-merge": "^1.6.2",
     "tsup": "^6.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zolplay-cn/ui.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "Cali Castle",
+  "bugs": {
+    "url": "https://github.com/zolplay-cn/ui/issues"
+  },
+  "homepage": "https://github.com/zolplay-cn/ui#readme",
+  "description": ""
 }
