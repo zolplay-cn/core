@@ -1,24 +1,30 @@
 {
   "name": "@zolplay/utils",
-  "version": "1.0.1",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.module.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "sideEffects": false,
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf dist",
     "dev": "pnpm run build --watch",
-    "lint": "eslint *.ts*",
-    "build": "tsup index.ts --format cjs --dts"
+    "build": "pnpm run clean && parcel build src/index.ts",
+    "lint": "eslint *.ts*"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
+    "@babel/runtime": "^7.19.4",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   },
   "dependencies": {
     "clsx": "^1.2.1",
-    "tailwind-merge": "^1.6.2",
-    "tsup": "^6.3.0"
+    "tailwind-merge": "^1.6.2"
   },
   "repository": {
     "type": "git",
