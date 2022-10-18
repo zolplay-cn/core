@@ -22,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zolplay-cn/ui.git"
+    "url": "git+https://github.com/zolplay-cn/core.git"
   },
   "keywords": [
     "utils"
   ],
   "author": "Cali Castle",
   "bugs": {
-    "url": "https://github.com/zolplay-cn/ui/issues"
+    "url": "https://github.com/zolplay-cn/core/issues"
   },
-  "homepage": "https://github.com/zolplay-cn/ui#readme",
+  "homepage": "https://github.com/zolplay-cn/core#readme",
   "description": ""
 }

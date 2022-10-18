@@ -1,5 +1,5 @@
 {
-  "name": "zolplay-ui",
+  "name": "zolplay-core",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
