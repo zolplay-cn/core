@@ -11,8 +11,7 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
-    "version": "changeset version",
-    "publish": "changeset publish"
+    "release": "pnpm run build && changeset version && changeset publish"
   },
   "devDependencies": {
     "prettier": "latest",
