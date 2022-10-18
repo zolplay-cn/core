@@ -1,23 +1,17 @@
 {
   "name": "@zolplay/utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "pnpm run build --watch",
-    "build": "tsup --format cjs,esm",
     "lint": "eslint *.ts*"
-  },
-  "tsup": {
-    "entry": [
-      "src/index.ts"
-    ],
-    "splitting": true,
-    "sourcemap": false,
-    "clean": true,
-    "treeshake": true
   },
   "devDependencies": {
     "@babel/runtime": "^7.19.4",
@@ -39,6 +33,5 @@
   "bugs": {
     "url": "https://github.com/zolplay-cn/core/issues"
   },
-  "homepage": "https://github.com/zolplay-cn/core#readme",
-  "description": ""
+  "homepage": "https://github.com/zolplay-cn/core#readme"
 }
