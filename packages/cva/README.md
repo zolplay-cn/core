@@ -1,6 +1,7 @@
 # @zolplay/cva
 
-[![npm version](https://badge.fury.io/js/%40zolplay%2Fcva.svg)](https://badge.fury.io/js/%40zolplay%2Fcva)
+![npm](https://img.shields.io/npm/v/@zolplay/cva?color=%23EEE)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@zolplay/cva)
 
 An adapter for the awesome original package `class-variance-authority`.
 
