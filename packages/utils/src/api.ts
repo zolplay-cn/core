@@ -1,4 +1,5 @@
-import { AxiosRequestConfig, Axios } from 'axios'
+import type { AxiosRequestConfig } from 'axios'
+import { Axios } from 'axios'
 
 export const API = new Axios({
   baseURL: '/api',
