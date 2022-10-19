@@ -1,0 +1,29 @@
+{
+  "name": "@zolplay/config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "eslint",
+    "jest",
+    "postcss",
+    "prettier"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-next": "^12.2.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "next": "^12.0.0",
+    "react": "^17.0.2||^18.0.0",
+    "react-dom": "^17.0.2||^18.0.0"
+  }
+}
