@@ -1,3 +1,5 @@
-# `tsconfig`
+# @zolplay/tsconfig
 
-These are base shared `tsconfig.json`s from which all other `tsconfig.json`'s inherit from.
+![npm](https://img.shields.io/npm/v/@zolplay/tsconfig?color=%23EEE)
+
+A collection of useful TypeScript configuration files to reduce boilerplate.
