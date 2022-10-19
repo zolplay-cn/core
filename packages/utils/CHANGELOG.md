@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.1.2
+
+### Patch Changes
+
+- Formatted code
+
 ## 1.1.1
 
 ### Patch Changes
