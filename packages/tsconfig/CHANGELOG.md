@@ -1,5 +1,11 @@
 # @zolplay/tsconfig
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated config
+
 ## 0.1.1
 
 ### Patch Changes

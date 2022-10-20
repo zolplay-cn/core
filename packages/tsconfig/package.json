@@ -1,6 +1,6 @@
 {
   "name": "@zolplay/tsconfig",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "files": [
     "base.json",

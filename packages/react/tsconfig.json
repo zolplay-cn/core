@@ -1,0 +1,10 @@
+{
+  "extends": "@zolplay/tsconfig/react-library.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
