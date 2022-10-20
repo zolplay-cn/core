@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.3.0
+
+### Minor Changes
+
+- Added Nullish type
+
 ## 1.2.0
 
 ### Minor Changes
