@@ -18,7 +18,7 @@ export const zLayers = Object.freeze({
   ceiling: 10000,
 })
 
-type StackedProps = {
+export type StackedProps = {
   layer: keyof typeof zLayers
   above?: boolean | number
   below?: boolean | number
