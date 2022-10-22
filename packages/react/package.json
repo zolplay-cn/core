@@ -1,6 +1,6 @@
 {
   "name": "@zolplay/react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
@@ -20,7 +20,7 @@
     "@stitches/react": "^1.2.8",
     "@zolplay/config": "workspace:*",
     "@zolplay/utils": "workspace:*",
-    "nanoid": "^4.0.0",
+    "nanoid": "^3.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "string-hash": "^1.1.3",
