@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.3.1
+
+### Patch Changes
+
+- Add getNameInitials string utils
+
 ## 1.3.0
 
 ### Minor Changes

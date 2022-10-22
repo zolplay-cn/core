@@ -29,6 +29,9 @@ const StyledFallback = styled(AvatarPrimitive.Fallback, {
   alignItems: 'center',
   justifyContent: 'center',
   position: 'relative',
+  width: '100%',
+  height: '100%',
+  borderRadius: 'inherit',
 })
 const GradientSvg = styled('svg', {
   position: 'absolute',
