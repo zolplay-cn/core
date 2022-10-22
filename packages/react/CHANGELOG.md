@@ -1,5 +1,11 @@
 # @zolplay/react
 
+## 0.2.0
+
+### Minor Changes
+
+- Added Avatar and StyledAvatar components
+
 ## 0.1.1
 
 ### Patch Changes
