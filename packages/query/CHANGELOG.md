@@ -1,5 +1,11 @@
 # @zolplay/query
 
+## 0.2.0
+
+### Minor Changes
+
+- Added all export from query
+
 ## 0.1.2
 
 ### Patch Changes
