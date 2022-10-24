@@ -40,10 +40,12 @@ type ParseOptions = {
  * @ref https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
  * @ref https://day.js.org/docs/en/parse/utc
  */
-export const parseDateTime = ({
-  date,
-  timezone,
-}: ParseOptions): DateTime | null => {
+export const parseDateTime = (
+  options: string | ParseOptions
+): DateTime | null => {
+  // take either a string or an object
+  const { date, timezone = null } =
+    typeof options === 'string' ? { date: options } : options
   if (!date) {
     return null
   }

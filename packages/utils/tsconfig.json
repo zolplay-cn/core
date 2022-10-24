@@ -1,6 +1,10 @@
 {
   "extends": "@zolplay/tsconfig/public-base.json",
   "compilerOptions": {
-    "target": "ESNext"
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }

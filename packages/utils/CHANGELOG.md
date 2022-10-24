@@ -1,5 +1,11 @@
 # @zolplay/utils
 
+## 1.3.2
+
+### Patch Changes
+
+- Add support for string as arg for `parseDateTime`
+
 ## 1.3.1
 
 ### Patch Changes
