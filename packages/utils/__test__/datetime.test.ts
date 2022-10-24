@@ -26,7 +26,7 @@ describe('datetime utils', () => {
         timezone: 'Asia/Tokyo',
       })
 
-      expect(parsed?.toISOString()).toBe('2022-12-31T16:00:00.000Z')
+      expect(parsed?.toISOString()).toBe('2023-01-01T00:00:00.000Z')
     })
   })
 })
