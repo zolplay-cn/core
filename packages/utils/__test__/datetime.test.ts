@@ -28,5 +28,13 @@ describe('datetime utils', () => {
 
       expect(parsed?.toISOString()).toBe('2023-01-01T00:00:00.000Z')
     })
+
+    test('should handle nullish values', () => {
+      expect(parseDateTime(null)).toBe(null)
+      expect(parseDateTime({ date: null })).toBe(null)
+      expect(parseDateTime(undefined)).toBe(null)
+      expect(parseDateTime({ date: undefined })).toBe(null)
+      expect(parseDateTime()).toBe(null)
+    })
   })
 })
