@@ -1,7 +1,7 @@
 import type { AxiosRequestConfig } from 'axios'
-import { Axios } from 'axios'
+import axios from 'axios'
 
-export const API = new Axios({
+export const API = axios.create({
   baseURL: '/api',
   headers: {
     'X-Requested-With': 'XMLHttpRequest',
