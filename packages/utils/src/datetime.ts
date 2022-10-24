@@ -4,6 +4,8 @@ import relativeTime from 'dayjs/plugin/relativeTime'
 import timezone from 'dayjs/plugin/timezone'
 import utc from 'dayjs/plugin/utc'
 
+import type { Nullish } from '.'
+
 export type DateTime = Dayjs
 export type DateTimeProps = {
   date: DateTime | null | undefined
@@ -41,8 +43,12 @@ type ParseOptions = {
  * @ref https://day.js.org/docs/en/parse/utc
  */
 export const parseDateTime = (
-  options: string | ParseOptions
+  options?: Nullish<string> | Nullish<ParseOptions>
 ): DateTime | null => {
+  if (!options) {
+    return null
+  }
+
   // take either a string or an object
   const { date, timezone = null } =
     typeof options === 'string' ? { date: options } : options
