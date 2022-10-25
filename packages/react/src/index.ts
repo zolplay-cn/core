@@ -1,4 +1,5 @@
 export * from './Avatar'
 export * from './DropdownMenu'
+export * from './ScrollArea'
 export * from './Stacked'
 export type { Component, PrimitiveComponent } from '@/types'
