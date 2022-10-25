@@ -1,5 +1,11 @@
 # @zolplay/react
 
+## 0.4.0
+
+### Minor Changes
+
+- Add ScrollArea proxy component
+
 ## 0.3.0
 
 ### Minor Changes
