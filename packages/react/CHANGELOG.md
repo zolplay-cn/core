@@ -1,5 +1,11 @@
 # @zolplay/react
 
+## 0.5.0
+
+### Minor Changes
+
+- Add LayoutProps and LayoutComponent types
+
 ## 0.4.1
 
 ### Patch Changes

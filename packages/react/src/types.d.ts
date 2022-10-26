@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-types */
 import type { FC, PropsWithChildren } from 'react'
 
 // CSS custom variables
@@ -7,16 +8,16 @@ declare module 'react' {
   }
 }
 
-// eslint-disable-next-line @typescript-eslint/ban-types
-export type Component<P = {}> = FC<
-  PropsWithChildren<
-    {
-      className?: string
-    } & P
-  >
+export type ComponentProps<P = {}> = PropsWithChildren<
+  {
+    className?: string
+  } & P
 >
+export type Component<P = {}> = FC<ComponentProps<P>>
 
-// eslint-disable-next-line @typescript-eslint/ban-types
 export type PrimitiveComponent<P = {}> = Component<
   P & { as?: keyof JSX.IntrinsicElements }
 >
+
+export type LayoutProps<P = {}> = PropsWithChildren<P>
+export type LayoutComponent<P = {}> = FC<LayoutProps<P>>
