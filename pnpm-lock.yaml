@@ -94,8 +94,8 @@ importers:
       '@zolplay/utils': workspace:*
       jsdom: ^20.0.1
       nanoid: ^3.0.0
-      react: ^18.0.0
-      react-dom: ^18.0.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
       string-hash: ^1.1.3
       tinycolor2: ^1.4.2
       typescript: ^4.8.4
