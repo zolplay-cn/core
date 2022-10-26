@@ -1,5 +1,11 @@
 # @zolplay/react
 
+## 0.5.1
+
+### Patch Changes
+
+- Fix types export
+
 ## 0.5.0
 
 ### Minor Changes

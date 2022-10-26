@@ -2,4 +2,10 @@ export * from './Avatar'
 export * from './DropdownMenu'
 export * from './ScrollArea'
 export * from './Stacked'
-export type { Component, PrimitiveComponent } from '@/types'
+export type {
+  Component,
+  ComponentProps,
+  LayoutComponent,
+  LayoutProps,
+  PrimitiveComponent,
+} from '@/types'
