@@ -1,5 +1,11 @@
 # @zolplay/config
 
+## 0.2.0
+
+### Minor Changes
+
+- Bump react and next versions
+
 ## 0.1.2
 
 ### Patch Changes

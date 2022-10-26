@@ -1,5 +1,13 @@
 # @zolplay/react
 
+## 0.4.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @zolplay/config@0.2.0
+  - @zolplay/utils@1.3.4
+
 ## 0.4.0
 
 ### Minor Changes

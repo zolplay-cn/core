@@ -1,5 +1,16 @@
 # @zolplay/query
 
+## 0.3.0
+
+### Minor Changes
+
+- Bump react and next versions
+
+### Patch Changes
+
+- Updated dependencies
+  - @zolplay/config@0.2.0
+
 ## 0.2.0
 
 ### Minor Changes

@@ -26,7 +26,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.32.0
       '@typescript-eslint/parser': ^5.32.0
       eslint: ^8.21.0
-      eslint-config-next: ^12.2.4
+      eslint-config-next: ^13
       eslint-config-prettier: ^8.3.0
       eslint-plugin-react: ^7.31.10
       eslint-plugin-simple-import-sort: ^8.0.0
@@ -37,7 +37,7 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.40.1_ukgdydjtebaxmxfqp5v5ulh64y
       '@typescript-eslint/parser': 5.40.1_z4bbprzjrhnsfa24uvmcbu7f5q
       eslint: 8.25.0
-      eslint-config-next: 12.3.1_z4bbprzjrhnsfa24uvmcbu7f5q
+      eslint-config-next: 13.0.0_z4bbprzjrhnsfa24uvmcbu7f5q
       eslint-config-prettier: 8.5.0_eslint@8.25.0
       eslint-plugin-react: 7.31.10_eslint@8.25.0
       eslint-plugin-simple-import-sort: 8.0.0_eslint@8.25.0
@@ -64,11 +64,15 @@ importers:
       '@tanstack/react-query-devtools': ^4.12.0
       '@zolplay/config': workspace:*
       '@zolplay/tsconfig': workspace:*
+      react: ^18.2.0
+      react-dom: ^18.2.0
       typescript: ^4.8.4
     dependencies:
-      '@tanstack/react-query': 4.12.0
-      '@tanstack/react-query-devtools': 4.12.0_drd77wjzdtjhkwvbq4fmcrf7wi
+      '@tanstack/react-query': 4.12.0_biqbaboplfbrettd7655fr4n2y
+      '@tanstack/react-query-devtools': 4.12.0_pqnxmwujmmnpcx44ucekqkefny
       '@zolplay/config': link:../config
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@zolplay/tsconfig': link:../tsconfig
       typescript: 4.8.4
@@ -780,8 +784,8 @@ packages:
       read-yaml-file: 1.1.0
     dev: false
 
-  /@next/eslint-plugin-next/12.3.1:
-    resolution: {integrity: sha512-sw+lTf6r6P0j+g/n9y4qdWWI2syPqZx+uc0+B/fRENqfR3KpSid6MIKqc9gNwGhJASazEQ5b3w8h4cAET213jw==}
+  /@next/eslint-plugin-next/13.0.0:
+    resolution: {integrity: sha512-z+gnX4Zizatqatc6f4CQrcC9oN8Us3Vrq/OLyc98h7K/eWctrnV91zFZodmJHUjx0cITY8uYM7LXD7IdYkg3kg==}
     dependencies:
       glob: 7.1.7
     dev: false
@@ -1185,7 +1189,7 @@ packages:
     resolution: {integrity: sha512-KEiFPNLMFByhNL2s6RBFL6Z5cNdwwQzFpW/II3GY+rEuQ343ZEoVyQ48zlUXXkEkbamQFIFg2onM8Pxf0Yo01A==}
     dev: false
 
-  /@tanstack/react-query-devtools/4.12.0_drd77wjzdtjhkwvbq4fmcrf7wi:
+  /@tanstack/react-query-devtools/4.12.0_pqnxmwujmmnpcx44ucekqkefny:
     resolution: {integrity: sha512-gUV+aKpwgP7Cfp2+vwgu6krXCytncGWjTqFcnzC1l2INOf8dRi8/GEupYF7npxD9ky72FTuxc5+TI/lC8eB0Eg==}
     peerDependencies:
       '@tanstack/react-query': 4.12.0
@@ -1193,12 +1197,14 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@tanstack/match-sorter-utils': 8.5.14
-      '@tanstack/react-query': 4.12.0
+      '@tanstack/react-query': 4.12.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       superjson: 1.10.1
-      use-sync-external-store: 1.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
-  /@tanstack/react-query/4.12.0:
+  /@tanstack/react-query/4.12.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-prchV1q+CJ0ZVo8Rts2cOF3azDfQizZZySmH6XXsXRcPTbir0sgb9fp0vY/5l5ZkSYjTvWt/OL8WQhAhYMSvrA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -1211,7 +1217,9 @@ packages:
         optional: true
     dependencies:
       '@tanstack/query-core': 4.12.0
-      use-sync-external-store: 1.2.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
   /@testing-library/dom/8.19.0:
@@ -2468,8 +2476,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next/12.3.1_z4bbprzjrhnsfa24uvmcbu7f5q:
-    resolution: {integrity: sha512-EN/xwKPU6jz1G0Qi6Bd/BqMnHLyRAL0VsaQaWA7F3KkjAgZHi4f1uL1JKGWNxdQpHTW/sdGONBd0bzxUka/DJg==}
+  /eslint-config-next/13.0.0_z4bbprzjrhnsfa24uvmcbu7f5q:
+    resolution: {integrity: sha512-y2nqWS2tycWySdVhb+rhp6CuDmDazGySqkzzQZf3UTyfHyC7og1m5m/AtMFwCo5mtvDqvw1BENin52kV9733lg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -2477,7 +2485,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 12.3.1
+      '@next/eslint-plugin-next': 13.0.0
       '@rushstack/eslint-patch': 1.2.0
       '@typescript-eslint/parser': 5.40.1_z4bbprzjrhnsfa24uvmcbu7f5q
       eslint: 8.25.0
@@ -4980,10 +4988,12 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /use-sync-external-store/1.2.0:
+  /use-sync-external-store/1.2.0_react@18.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /validate-npm-package-license/3.0.4:
